@@ -2,6 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>peteralmanzar</Authors>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/peteralmanzar/CoreLib.Infrastructure.SignalR</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/peteralmanzar/CoreLib.Infrastructure.SignalR</RepositoryUrl>
+    <PackageTags>signalr asynchronous server</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
@@ -9,6 +14,13 @@
     <PackageReference Include="Microsoft.AspNetCore" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Hosting.Abstractions" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
