@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29201.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreLib.Infrastructure.SignalR.Server", "CoreLib.Infrastructure.SignalR.Server\CoreLib.Infrastructure.SignalR.Server.csproj", "{8DCE5776-6A3F-4B0E-A0D6-F8627A493BB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreLib.Infrastructure.SignalR.Server", "CoreLib.Infrastructure.SignalR.Server\CoreLib.Infrastructure.SignalR.Server.csproj", "{8DCE5776-6A3F-4B0E-A0D6-F8627A493BB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreLib.Infrastructure.SignalR.Client", "CoreLib.Infrastructure.SignalR.Client\CoreLib.Infrastructure.SignalR.Client.csproj", "{C5EAD0C5-9407-49C2-BC3F-6E42B0262446}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreLib.Infrastructure.SignalR.Client", "CoreLib.Infrastructure.SignalR.Client\CoreLib.Infrastructure.SignalR.Client.csproj", "{C5EAD0C5-9407-49C2-BC3F-6E42B0262446}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

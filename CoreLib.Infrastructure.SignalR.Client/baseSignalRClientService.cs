@@ -18,12 +18,14 @@ namespace CoreLib.Infrastructure.SignalR
         public event EventHandler Connected;
         protected virtual void OnConnected()
         {
+            //TODO: need to implement OnConnected
             Connected?.Invoke(this, EventArgs.Empty);
         }
 
         public event EventHandler Disconnected;
         protected virtual void OnDisconnected()
         {
+            //TODO: need to implement OnDisconnected
             Disconnected?.Invoke(this, EventArgs.Empty);
         }
         #endregion
