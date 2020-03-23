@@ -9,10 +9,12 @@
     <PackageTags>signalr asynchronous client</PackageTags>
     <Authors>peteralmanzar</Authors>
     <Product>CoreLib.Infrastructure.SignalR.Client</Product>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Copyright>2019</Copyright>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CoreLib.Patterns.Repository" Version="1.0.2" />
+    <PackageReference Include="CoreLib.Patterns.Repository" Version="0.1.20083.2" />
     <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="1.1.0" />
   </ItemGroup>
 

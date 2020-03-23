@@ -7,10 +7,11 @@
     <PackageProjectUrl>https://github.com/peteralmanzar/CoreLib.Infrastructure.SignalR</PackageProjectUrl>
     <RepositoryUrl>https://github.com/peteralmanzar/CoreLib.Infrastructure.SignalR</RepositoryUrl>
     <PackageTags>signalr asynchronous server</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CoreLib.Patterns.Repository" Version="1.0.2" />
+    <PackageReference Include="CoreLib.Patterns.Repository" Version="0.1.20083.2" />
     <PackageReference Include="Microsoft.AspNetCore" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Hosting.Abstractions" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.1.0" />
